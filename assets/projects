@@ -1,9 +1,9 @@
-from cryptography.fernet import Fernet
-from cryptography.hazmat.primitives import hashes
-from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
-from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
-from cryptography.hazmat.primitives import padding
-from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+import Fernet
+import hashes
+import PBKDF2HMAC
+import PBKDF2HMAC
+import padding
+import Cipher, algorithms, modes
 
 # Generate a random salt for key derivation
 salt = b'\xd6\xaf\xe1\x14U\xa5\xbaS\x12\xc3P@\x8e\x92\x99'
